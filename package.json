@@ -1,0 +1,37 @@
+{
+  "name": "ginbot-cli",
+  "version": "1.0.0",
+  "description": "Command line tool GinBot",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhatcoder2k3/ginbot-cli.git"
+  },
+  "keywords": [
+    "ginbot",
+    "chatbox",
+    "vuminhnhat",
+    "nhatcoder2k3",
+    "facebook",
+    "messenger"
+  ],
+  "author": "Nhatcoder2k3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhatcoder2k3/ginbot-cli/issues"
+  },
+  "homepage": "https://github.com/nhatcoder2k3/ginbot-cli#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chalk": "^4.1.2",
+    "chalkercli": "^1.6.4",
+    "fs-extra": "^11.1.1",
+    "gradient-string": "^2.0.2",
+    "minimist": "^1.2.8",
+    "pkg-dir": "^7.0.0"
+  },
+  "bin": "./index.js"
+}
