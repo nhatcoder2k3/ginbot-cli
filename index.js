@@ -12,6 +12,17 @@
    const notFound = true;
    
    for(const name in global.Core) {
-     
+    const {keywords, params, fn} = global.Core[name];
+    const method = argv._[0];
+    try {
+      if(keywords.includes(method)) {
+        await fn(argv);
+        notFound = false;
+      } else {
+        
+      }
+    } catch(e) {
+      
+    }
    }
  });
